@@ -1,0 +1,203 @@
+Sep 28, 2016 10:38:22 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.j2ee.server:shop' did not find a matching property.
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_91
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_91-b15
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72
+Sep 28, 2016 10:38:22 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\wtpwebapps
+Sep 28, 2016 10:38:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\endorsed
+Sep 28, 2016 10:38:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=Cp1252
+Sep 28, 2016 10:38:23 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_91\bin;E:\eclipse-jee-mars-2-win32-x86_64\eclipse;;.
+Sep 28, 2016 10:38:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 28, 2016 10:38:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 28, 2016 10:38:23 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1066 ms
+Sep 28, 2016 10:38:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 28, 2016 10:38:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Sep 28, 2016 10:38:23 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\wtpwebapps\shop\WEB-INF\lib\javax.el-api-3.0.1-b04.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Sep 28, 2016 10:38:23 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\wtpwebapps\shop\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Sep 28, 2016 10:38:25 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 28, 2016 10:38:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Sep 28, 2016 10:38:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Sep 28, 2016 10:38:25 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Sep 28, 2016 10:38:25 PM org.springframework.web.context.support.XmlWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Wed Sep 28 22:38:25 IST 2016]; root of context hierarchy
+Sep 28, 2016 10:38:25 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+Sep 28, 2016 10:38:25 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+SEVERE: Context initialization failed
+java.lang.NoSuchMethodError: org.springframework.core.ResolvableType.forRawClass(Ljava/lang/Class;)Lorg/springframework/core/ResolvableType;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:417)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:82)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1571)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1561)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Sep 28, 2016 10:38:25 PM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+java.lang.NoSuchMethodError: org.springframework.core.ResolvableType.forRawClass(Ljava/lang/Class;)Lorg/springframework/core/ResolvableType;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:417)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:82)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1571)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1561)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Sep 28, 2016 10:38:25 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Sep 28, 2016 10:38:26 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [222] milliseconds.
+Sep 28, 2016 10:38:26 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/shop] startup failed due to previous errors
+Sep 28, 2016 10:38:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Sep 28, 2016 10:38:26 PM org.springframework.web.context.support.XmlWebApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Wed Sep 28 22:38:25 IST 2016]; root of context hierarchy
+Sep 28, 2016 10:38:26 PM org.springframework.web.context.support.XmlWebApplicationContext doClose
+WARNING: Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Wed Sep 28 22:38:25 IST 2016]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:344)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:331)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:836)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5165)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:149)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1571)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1561)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Sep 28, 2016 10:38:26 PM org.springframework.web.context.support.XmlWebApplicationContext doClose
+WARNING: Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Wed Sep 28 22:38:25 IST 2016]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:357)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:836)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5165)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:149)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1571)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1561)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Sep 28, 2016 10:38:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\docs
+Sep 28, 2016 10:38:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\docs has finished in 124 ms
+Sep 28, 2016 10:38:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\examples
+Sep 28, 2016 10:38:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Sep 28, 2016 10:38:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Sep 28, 2016 10:38:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@45285312')
+Sep 28, 2016 10:38:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\examples has finished in 440 ms
+Sep 28, 2016 10:38:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\host-manager
+Sep 28, 2016 10:38:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\host-manager has finished in 470 ms
+Sep 28, 2016 10:38:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\manager
+Sep 28, 2016 10:38:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\manager has finished in 84 ms
+Sep 28, 2016 10:38:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\ROOT
+Sep 28, 2016 10:38:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\apache-tomcat-7.0.72-windows-x64\apache-tomcat-7.0.72\webapps\ROOT has finished in 64 ms
+Sep 28, 2016 10:38:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 28, 2016 10:38:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 28, 2016 10:38:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4216 ms
+Sep 28, 2016 10:41:01 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 28, 2016 10:41:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 28, 2016 10:41:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 28, 2016 10:41:01 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 28, 2016 10:41:01 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Sep 28, 2016 10:41:01 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Sep 28, 2016 10:41:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 28, 2016 10:41:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 28, 2016 10:41:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 28, 2016 10:41:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
