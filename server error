@@ -1,0 +1,7 @@
+ERROR:
+  could not find run on server option in run as
+  SOLUTION:
+    remove files in .setting folder inside the project folder
+    open eclipse. right click on the project>> build path>>configure>> add servlet api to java build path>> activate dynamic web module in project facets.
+    now add server to the project in server view.
+    run on server option will be available now
